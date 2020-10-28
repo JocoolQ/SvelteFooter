@@ -34,24 +34,16 @@
 			},
 		],
 	};
-	let copyright = "© Copyright 2019. | Todos los Derechos Reservados";
 </script>
 
 <svelte:options tag="svelte-footer" />
 <svelte:head> 
-	<!--<script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
-	<link
-		href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
-		rel="stylesheet" />-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
 </svelte:head> 
 
 <main>
-	<span class="material-icons">
-		settings_bluetooth
-	</span>
 	<div class="footer-div">
 		
 		<figure class="card-imageContainer">
@@ -70,7 +62,6 @@
 			
 			{#each social.list as lista}
 				<div class="social">
-					<!--<ion-icon class ="icon" name="{lista.class}"></ion-icon>-->
 					<span class="material-icons">
 						{lista.class}
 					</span>
